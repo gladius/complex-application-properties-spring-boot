@@ -3,29 +3,28 @@ nested-value-sample:
    name: Luffy
    age: 19
    is-pirate: true
-   
+
 complex-properties:
+   total-slots: 220
+   max-age: 55
    countries:
-   - USA
-   - India
-   - UAE
-   - China
+      - USA
+      - India
+      - UAE
+      - China
    years: 2015,2016,2020
    allowed-professions:
       doctor: true
       engineer: true
       pilot: false
-   available-slots:
-      USA: 100
-      India: 50
-      China: 70
-      
+   available-slots: { USA: 100, India: 50, China: 70 }
+
 nested-complex-properties:
-  hero:
-    name: Captain America
-    age: 27
-    skills:
-     - agility
-     - strength
-     - speed
-     - endurance
+   hero:
+      name: Captain America
+      age: 27
+      skills:
+         - agility
+         - strength
+         - speed
+         - endurance

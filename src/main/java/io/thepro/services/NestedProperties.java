@@ -10,7 +10,5 @@ import lombok.Data;
 @ConfigurationProperties("nested-complex-properties")
 @Data
 public class NestedProperties {
-
 	private Hero hero;
-
 }

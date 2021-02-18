@@ -15,7 +15,7 @@ public class BasicProperties {
 	@Value("${nested-value-sample.age}")
 	private int age;
 	
-	@Value("${nested-value-sample.is-pirate}")
+	@Value("${nested-value-sample.is-pirate:false}")
 	private boolean isPirate;
 	
 	

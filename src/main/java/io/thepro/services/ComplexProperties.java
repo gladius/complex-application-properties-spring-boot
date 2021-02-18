@@ -13,6 +13,10 @@ import lombok.Data;
 @Data
 public class ComplexProperties {
 
+	private String totalSlots;
+
+	private int maxAge;
+
 	private ArrayList<String> countries;
 
 	private ArrayList<Integer> years;
