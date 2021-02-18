@@ -1,0 +1,31 @@
+basic-value: basic value
+nested-value-sample:
+   name: Luffy
+   age: 19
+   is-pirate: true
+   
+complex-properties:
+   countries:
+   - USA
+   - India
+   - UAE
+   - China
+   years: 2015,2016,2020
+   allowed-professions:
+      doctor: true
+      engineer: true
+      pilot: false
+   available-slots:
+      USA: 100
+      India: 50
+      China: 70
+      
+nested-complex-properties:
+  hero:
+    name: Captain America
+    age: 27
+    skills:
+     - agility
+     - strength
+     - speed
+     - endurance
